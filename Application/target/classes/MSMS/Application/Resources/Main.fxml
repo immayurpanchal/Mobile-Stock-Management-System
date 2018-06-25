@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="600.0" minWidth="700.0" prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: #BCAAA4;" styleClass="background-image" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MSMS.Application.Resources.MainController">
+	<children>
+		<MenuBar fx:id="menuBar" layoutY="2.0" prefHeight="25.0" prefWidth="800.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+			<menus>
+				<Menu mnemonicParsing="false" style="-fx-text-fill: white;" text="File">
+					<items>
+                  <MenuItem mnemonicParsing="false" onAction="#exit" text="Exit" />
+					</items>
+				</Menu>
+            <Menu mnemonicParsing="false" text="Add">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#addBrand" text="Add Brand" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" onAction="#addProduct" text="Add Product" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" onAction="#addCustomer" text="Add Customer" />
+                  <MenuItem mnemonicParsing="false" onAction="#addSupplier" text="Add Supplier" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="View">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#viewDashboard" text="Dashboard" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" onAction="#viewProduct" text="Product" />
+                  <MenuItem mnemonicParsing="false" onAction="#viewCustomer" text="Customer" />
+                  <MenuItem mnemonicParsing="false" onAction="#viewBrand" text="Brand" />
+                  <MenuItem mnemonicParsing="false" onAction="#viewSupplier" text="Supplier" />
+               </items>
+            </Menu>
+				<Menu mnemonicParsing="false" text="Transaction">
+					<items>
+						<MenuItem mnemonicParsing="false" onAction="#buy" text="Buy" />
+						<MenuItem mnemonicParsing="false" onAction="#sell" text="Sell" />
+					</items>
+				</Menu>
+				<Menu mnemonicParsing="false" text="Report">
+					<items>
+                  <Menu mnemonicParsing="false" text="Buy">
+                     <items>
+                        <MenuItem mnemonicParsing="false" onAction="#buyCurrentMonthReport" text="Current Month" />
+                        <MenuItem mnemonicParsing="false" onAction="#buyCustomReport" text="Custom" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Sell">
+                     <items>
+                        <MenuItem mnemonicParsing="false" onAction="#sellCurrentMonthReport" text="Current Month" />
+                        <MenuItem mnemonicParsing="false" onAction="#sellCustomReport" text="Custom" />
+                     </items>
+                  </Menu>
+					</items>
+				</Menu>
+				<Menu mnemonicParsing="false" text="Help">
+					<items>
+						<MenuItem mnemonicParsing="false" text="About" />
+					</items>
+				</Menu>
+			</menus>
+		</MenuBar>
+		<TabPane fx:id="tabpane" layoutY="25.0" prefHeight="576.0" prefWidth="800.0" side="BOTTOM" tabClosingPolicy="ALL_TABS" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0" />
+	</children>
+</AnchorPane>

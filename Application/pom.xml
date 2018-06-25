@@ -1,0 +1,102 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>MSMS</groupId>
+  <artifactId>Application</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>Application</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+
+
+	<!-- https://mvnrepository.com/artifact/net.sf.jasperreports/jasperreports -->
+	<dependency>
+		<groupId>net.sf.jasperreports</groupId>
+		<artifactId>jasperreports</artifactId>
+		<version>6.6.0</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.apache.ivy/ivy -->
+	<dependency>
+		<groupId>org.apache.ivy</groupId>
+		<artifactId>ivy</artifactId>
+		<version>2.5.0-rc1</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.apache.ant/ant -->
+	<dependency>
+		<groupId>org.apache.ant</groupId>
+		<artifactId>ant</artifactId>
+		<version>1.10.3</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.apache.ant/ant-launcher -->
+	<dependency>
+		<groupId>org.apache.ant</groupId>
+		<artifactId>ant-launcher</artifactId>
+		<version>1.10.3</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.apache.ant/ant-junit -->
+	<dependency>
+		<groupId>org.apache.ant</groupId>
+		<artifactId>ant-junit</artifactId>
+		<version>1.10.3</version>
+		<scope>test</scope>
+	</dependency>
+
+	
+	
+    
+    <!-- https://mvnrepository.com/artifact/com.jfoenix/jfoenix -->
+	<dependency>
+		<groupId>com.jfoenix</groupId>
+		<artifactId>jfoenix</artifactId>
+		<version>8.0.4</version>
+	</dependency>
+	
+	
+
+	<!-- https://mvnrepository.com/artifact/de.jensd/fontawesomefx -->
+	<dependency>
+		<groupId>de.jensd</groupId>
+		<artifactId>fontawesomefx</artifactId>
+		<version>8.9</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+	<dependency>
+		<groupId>org.postgresql</groupId>
+		<artifactId>postgresql</artifactId>
+		<version>42.2.2</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+	<dependency>
+		<groupId>org.hibernate</groupId>
+		<artifactId>hibernate-core</artifactId>
+		<version>5.3.0.Final</version>
+	</dependency>	
+
+	<dependency>
+		<groupId>org.kordamp.bootstrapfx</groupId>
+		<artifactId>bootstrapfx-core</artifactId>
+		<version>0.2.3</version>
+		<type>pom</type>
+	</dependency>
+  </dependencies>
+</project>

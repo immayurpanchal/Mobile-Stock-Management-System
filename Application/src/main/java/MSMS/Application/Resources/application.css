@@ -1,0 +1,56 @@
+.background-image {
+	-fx-background-image: url("../img/windows_8_simple_background-wallpaper-1366x768.jpg");
+	-fx-background-repeat: no-repeat;
+	-fx-background-size: cover;
+}
+.myFont{
+	-fx-font-family: "Segoe UI Light";
+	-fx-font-size: 16;
+}
+.login{
+	-fx-background-color: white;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 20, 0, 0, 0);
+}
+.shadow{
+	-fx-background-color: white;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 11, 0, 0, 0);
+	-fx-background-radius: 15;
+}
+.button{
+	-fx-background-color: #004A6F;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 5, 0, 0, 0);
+	-fx-background-radius: 10;
+	-fx-pref-height: 50;
+	-fx-font-size: 16;
+	-fx-font-family: "Segoe UI Light";
+}  
+.text-field{
+	-fx-font-size: 16;
+	-fx-font-family: "Segoe UI";
+	-fx-pref-height: 35;
+}
+.searchBar{
+	-fx-border-insets: 2px 2px 2px 2px;
+}
+.jfx-snackbar-toast{
+	-fx-font-family: "Segoe UI Light";
+	-fx-font-size: 18px;
+}
+.tree-table-view{
+	-fx-font-family: "Segoe UI";
+	-fx-font-size: 14px;
+}
+.login-text{
+	-fx-font-size: 20;
+	-fx-font-family: "Segoe UI Light";
+}
+.scroll-pane > .viewport{
+	-fx-background-color: transparent;
+}
+.scroll-pane{
+	-fx-background-color: transparent;
+}
+.jfx-tree-table-view {
+    -fx-border-color: transparent;
+    -fx-padding: 10;
+}
